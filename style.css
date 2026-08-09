@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+nav{
+    
+}
+
+/*Navigation bar background*/
+.topnav{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+/*Amazon Logo*/
+#logo{
+    background-image: url(./images/amazon-logo.png);
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+}
+
+/*Border Outline*/
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+/*Delivery Location*/
+#delv-to{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+#country{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.deliver-to-country{
+    display: flex;
+}
