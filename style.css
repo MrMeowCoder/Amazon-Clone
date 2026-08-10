@@ -52,3 +52,23 @@
 .deliver-to-country{
     display: flex;
 }
+
+/*Search category*/
+select{
+
+}
+
+/*Search bar*/
+#search-bar{
+    
+}
+
+/*Search icon*/
+.search-icon{
+    background-color: #FEBD69;
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
