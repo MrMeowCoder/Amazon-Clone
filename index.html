@@ -4,6 +4,7 @@
         <title>Amazon</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link class="title-img" rel="shortcut icon" href="./images/title-image.png">
     </head>
     <body>
         <header>
@@ -13,14 +14,16 @@
                 <div class="topnav">
                     <!--Amazon Logo-->
                     <div class="nav-logo border">
-                        <div id="logo"></div>
+                        <a href="https://www.amazon.com/ref=nav_logo">
+                            <div id="logo"></div>
+                        </a> 
                     </div>
 
                     <!--Delivary Country-->
                     <div class="deliver-to border">
                         <p id="delv-to">Deliver to</p>
                         <div class="deliver-to-country">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i class="fa-solid fa-location-dot delv-icon"></i>
                             <p id="country">India</p>
                         </div>
                     </div>
@@ -28,34 +31,34 @@
                     <!--Search Category-->
                     <div class="nav-search-components">
                         <select class="product-category">
-                            <option>All</option>
-                            <option>All Department</option>
-                            <option>Arts & Crafts</option>
-                            <option>Automotive</option>
-                            <option>Baby</option>
-                            <option>Beauty & Personal Care</option>
-                            <option>Books</option>
-                            <option>Boys' Fashion</option>
-                            <option>Computers</option>
-                            <option>Deals</option>
-                            <option>Digital Musci</option>
-                            <option>Girls' Fashion</option>
-                            <option>Health & Household</option>
-                            <option>Home & Kitchen</option>
-                            <option>Industrial & Scientific</option>
-                            <option>Kindle Store</option>
-                            <option>Luggage</option>
-                            <option>Men's Fashion</option>
-                            <option>Movies & TV</option>
-                            <option>Music, CDs & Vinyl</option>
-                            <option>Pet Supplies</option>
-                            <option>Prime Video</option>
-                            <option>Software</option>
-                            <option>Sports & Outdoors</option>
-                            <option>Tools & Home Improvement</option>
-                            <option>Toys & Games</option>
-                            <option>Video Games</option>
-                            <option>Women's Fashion</option>
+                            <option hidden>All</option>
+                            <option class="category-option">All Department</option>
+                            <option class="category-option">Arts & Crafts</option>
+                            <option class="category-option">Automotive</option>
+                            <option class="category-option">Baby</option>
+                            <option class="category-option">Beauty & Personal Care</option>
+                            <option class="category-option">Books</option>
+                            <option class="category-option">Boys' Fashion</option>
+                            <option class="category-option">Computers</option>
+                            <option class="category-option">Deals</option>
+                            <option class="category-option">Digital Musci</option>
+                            <option class="category-option">Girls' Fashion</option>
+                            <option class="category-option">Health & Household</option>
+                            <option class="category-option">Home & Kitchen</option>
+                            <option class="category-option">Industrial & Scientific</option>
+                            <option class="category-option">Kindle Store</option>
+                            <option class="category-option">Luggage</option>
+                            <option class="category-option">Men's Fashion</option>
+                            <option class="category-option">Movies & TV</option>
+                            <option class="category-option">Music, CDs & Vinyl</option>
+                            <option class="category-option">Pet Supplies</option>
+                            <option class="category-option">Prime Video</option>
+                            <option class="category-option">Software</option>
+                            <option class="category-option">Sports & Outdoors</option>
+                            <option class="category-option">Tools & Home Improvement</option>
+                            <option class="category-option">Toys & Games</option>
+                            <option class="category-option">Video Games</option>
+                            <option class="category-option">Women's Fashion</option>
                         </select>
                         
                         <!--Search bar-->
@@ -65,8 +68,29 @@
                         <div class="search-icon">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
+                        
+                    </div>
+                    <nav class="nav-tool-bar border">
+                    <!--Language selection-->
+                        <div class="select-language">
+                            <div class="country-flag"></div>
+                            <div class="--language">EN</div>
+                        </div>
+                    </nav>
+
+                    <!--Account-->
+                    <div class="account border">
+                        <p><span class="top-text" id="sing-in">Hello, sing in</span></p>
+                        <p class="bottom-text" id="ac-list">Account & List</p>
+                    </div>
+                    
+                    <!--Orders & Returns-->
+                    <div class="account border">
+                        <p><span class="top-text" id="nav-returns">Returns</span></p>
+                        <p class="bottom-text" id="nav-orders">& Orders</p>
                     </div>
                 </div>
+
                 <!--Upper Navigation bar-->
                 <div class="bottomnav">
 
