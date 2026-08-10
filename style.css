@@ -14,7 +14,7 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .nav-logo{
     height: 50px;
@@ -29,7 +29,6 @@
     width: 114px;
     background-size: cover;
     transform: scale(1.05);
-    /* margin-left: 11px; */
 }
 
 /*Border Outline*/
@@ -42,16 +41,23 @@
     cursor: pointer;
 }
 
+/*Flexing*/
+.flexing{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /*Delivery Location*/
 .deliver-to{
-    
     height: 50px;
 }
 
 #delv-to{
     color: #CCCCCC;
     font-size: 0.8rem;
-    margin-left: 20px;
+    margin-left: 20px;  
 }
 
 #country{
@@ -65,11 +71,15 @@
 
 /*Navigation bar Searching components*/
 .nav-search-components{
-    width: 500px;
+    width: 55%;
     display: flex;
     height: 40px;
     justify-content: space-evenly;
     margin-left: 2%;
+    border-radius: 4px;
+}
+.nav-search-components:focus-within{
+    outline: 3px solid orange;
 }
 
 /*Search category*/
@@ -81,8 +91,18 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: none;
+    z-index: 1;
+    appearance: none;
+}
+.product-category:hover{
+    background-color: #dfdede;
+    color: black;
+    cursor: pointer;
 }
 
+.product-category:focus{
+    outline: 3px solid orange;   
+}
 .category-option{
     color: black;
     text-align: left;
@@ -96,6 +116,7 @@
     border-radius: 0;
     font-size: 1rem;
     padding-left: 10px;
+    outline: none;
 }
 
 /*Search icon*/
@@ -105,18 +126,26 @@
     align-items: center;
     font-size: 1.2rem;
     color: black;
-    width: 45px;
-    background-color: #FEBD68;
+    width: 50px;
+    background-color: #fdc077;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: #ffb151;
+    cursor: pointer;
+}
+.search-icon:focus{
+    outline: 3px solid orange;  
 }
 
 /*language selection*/
 .select-language{
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     align-items: end;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 /*Country logo*/
@@ -132,7 +161,7 @@
 
 /*Language name*/
 .select-language{
-    height: 40px;
+    height: 50px;
     width: 70px;
     display: flex;
 }
@@ -142,14 +171,29 @@
     margin-bottom: 3px;
 }
 
+/*Navegation tool bar*/
+
 /*Account | sing-in / login*/
+.account{
+    height: 50px;
+}
 /*Top text*/
 .top-text{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 /*Bottom text*/
 .bottom-text{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
+}
+
+/*Cart*/
+.cart{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }

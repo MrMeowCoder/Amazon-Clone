@@ -20,8 +20,8 @@
                     </div>
 
                     <!--Delivary Country-->
-                    <div class="deliver-to border">
-                        <p id="delv-to">Deliver to</p>
+                    <div class="deliver-to border flexing">
+                        <p id="delv-to">Deliver to</p> 
                         <div class="deliver-to-country">
                             <i class="fa-solid fa-location-dot delv-icon"></i>
                             <p id="country">India</p>
@@ -31,7 +31,7 @@
                     <!--Search Category-->
                     <div class="nav-search-components">
                         <select class="product-category">
-                            <option hidden>All</option>
+                            <option hidden>All &#9662;</option>
                             <option class="category-option">All Department</option>
                             <option class="category-option">Arts & Crafts</option>
                             <option class="category-option">Automotive</option>
@@ -65,30 +65,35 @@
                         <input class="search-bar" type="text" placeholder="Search Amazon">
                         
                         <!--Search Icon-->
-                        <div class="search-icon">
+                        <div class="search-icon" tabindex="0">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
                         
                     </div>
-                    <nav class="nav-tool-bar border">
-                    <!--Language selection-->
-                        <div class="select-language">
+                    <!-- <nav class="nav-tool-bar"> -->
+                        <!--Language selection-->
+                        <div class="select-language border">
                             <div class="country-flag"></div>
                             <div class="--language">EN</div>
                         </div>
-                    </nav>
+                        
+                        <!--Account-->
+                        <div class="account border flexing">
+                            <p><span class="top-text" id="sing-in">Hello, sing in</span></p>
+                            <p class="bottom-text" id="ac-list">Account & List</p>
+                        </div>
+                        
+                        <!--Orders & Returns-->
+                        <div class="account border flexing">
+                            <p><span class="top-text" id="nav-returns">Returns</span></p>
+                            <p class="bottom-text" id="nav-orders">& Orders</p>
+                        </div>
 
-                    <!--Account-->
-                    <div class="account border">
-                        <p><span class="top-text" id="sing-in">Hello, sing in</span></p>
-                        <p class="bottom-text" id="ac-list">Account & List</p>
-                    </div>
-                    
-                    <!--Orders & Returns-->
-                    <div class="account border">
-                        <p><span class="top-text" id="nav-returns">Returns</span></p>
-                        <p class="bottom-text" id="nav-orders">& Orders</p>
-                    </div>
+                        <!--Cart-->
+                        <div class="cart border">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    <!-- </nav> -->
                 </div>
 
                 <!--Upper Navigation bar-->
