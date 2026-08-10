@@ -53,22 +53,38 @@
     display: flex;
 }
 
-/*Search category*/
-select{
+/*Navigation bar Searching components*/
+.nav-search-components{
+    background-color: brown;
+    width: 500px;
+    display: flex;
+    border-radius: 2px;
+    height: 40px;
+    justify-content: space-evenly;
+}
 
+/*Search category*/
+.product-category{
+    color: gray;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    /* border-right: 5px; */
 }
 
 /*Search bar*/
-#search-bar{
+.search-bar{
+    color: gray;
+    width: 100%;
+    border: none;
+    border-radius: 0;
     
 }
 
 /*Search icon*/
 .search-icon{
-    background-color: #FEBD69;
-    height: 40px;
-    width: 40px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    
+    width: 45px;
 }
