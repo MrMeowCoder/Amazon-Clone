@@ -4,7 +4,7 @@
         <title>Amazon</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link class="title-img" rel="shortcut icon" href="./images/title-image.png">
+        <link class="title-img" rel="shortcut icon" href="./images/navigation-bar/title-image.png">
     </head>
     <body>
         <header>
@@ -71,37 +71,63 @@
                         
                     </div>
                     <!-- <nav class="nav-tool-bar"> -->
-                        <!--Language selection-->
-                        <div class="select-language border">
-                            <div class="country-flag"></div>
-                            <div class="--language">EN</div>
-                        </div>
-                        
-                        <!--Account-->
-                        <div class="account border flexing">
-                            <p><span class="top-text" id="sing-in">Hello, sing in</span></p>
-                            <p class="bottom-text" id="ac-list">Account & List</p>
-                        </div>
-                        
-                        <!--Orders & Returns-->
-                        <div class="account border flexing">
-                            <p><span class="top-text" id="nav-returns">Returns</span></p>
-                            <p class="bottom-text" id="nav-orders">& Orders</p>
-                        </div>
-
-                        <!--Cart-->
-                        <div class="cart-icon border">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p id="cart">Cart</p>
-                        </div>
-                    <!-- </nav> -->
+                    <!--Language selection-->
+                    <div class="select-language border">
+                        <div class="country-flag"></div>
+                        <div class="--language">EN&#9662;</div>
+                    </div>
+                    
+                    <!--Account-->
+                    <div class="account border flexing">
+                        <p><span class="top-text" id="sing-in">Hello, sing in</span></p>
+                        <p class="bottom-text" id="ac-list">Account & List</p>
+                    </div>
+                    
+                    <!--Orders & Returns-->
+                    <div class="account border flexing">
+                        <p><span class="top-text" id="nav-returns">Returns</span></p>
+                        <p class="bottom-text" id="nav-orders">& Orders</p>
+                    </div>
+                    <!--Cart-->
+                    <div class="cart-icon border">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p id="cart">Cart</p>
+                    </div>
                 </div>
-
+                <!------------------------------------------------------------------------------------------------------------------>
+                
                 <!--Upper Navigation bar-->
-                <div class="bottomnav">
+                <div class="panel">
 
+                    <!--Menu icon-->
+                    <div class="menu border">
+                        <div id="menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                            <p id="menu-text">All</p>
+                        </div>
+                    </div>
+
+                    <!--Panel text-->
+                    <div class="penal-options">
+                        <a class="border" id="deals" href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb">Today's Deals</a>
+                        <a class="border" id="p-video" href="https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video">Prime Video</a>
+                        <a class="border" id="gift-card" href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc">Gift Cards</a>
+                        <a class="border" id="sell" href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell">Sell</a>
+                        <a class="border" id="service" href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice">Customer Service</a>
+                        <a class="border" id="registry" href="https://www.amazon.com/gp/browse.html?node=16115931011&ref_=nav_cs_registry">Registry</a>
+                    </div>
                 </div>
             </nav>
         </header>
+
+        <!--Main Content-->
+        <main>
+            <div class="hero-section">
+                <div class="hero-message">
+                    <p id="h-mess">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</p>
+                    <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in">Click here to go to amazon.in</a>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
