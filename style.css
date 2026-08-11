@@ -299,6 +299,12 @@ main{
     height: 600px;
     background-image: url("./images/body-images/Hero-section.png");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /*This is from online 👇*/
+    /* -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%); */
 }
 
 /*Hero Message*/
@@ -306,4 +312,23 @@ main{
 .hero-message{
     height: 40px;
     align-items: center;
+    height: 40px;
+    background-color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    margin-bottom: 310px;    
+}
+
+.hero-message a{
+    color: #2162A1;
+    text-decoration: none;
+    
+}
+
+.hero-message a:hover{
+    color: #0C3353;
+    text-decoration: underline;
 }
