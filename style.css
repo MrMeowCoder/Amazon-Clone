@@ -306,11 +306,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
 
-    /*This is from online 👇*/
-    /* -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%); */
 }
 
 /*All the links*/
@@ -358,7 +354,7 @@ main{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /*1st row items*/
@@ -385,17 +381,15 @@ main{
     margin: 20px;
 }
 
+/*Wrapping*/
+.shop-main, .shop-main2{
+    min-width: 100px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
 /*Fasion items*/
 
-/*box number 2*/
-
-/*box number 3*/
-.item{
-    height: 420px;
-    width: 24%;
-    background-color: white;
-    padding: 20px 0px 15px;
-}
 
 /**/
 .dress main{
@@ -459,13 +453,6 @@ main{
 /*items footer*/
 .item-footers{
     margin: 20px;
-}
-
-.item{
-    height: 420px;
-    width: 24%;
-    background-color: white;
-    padding: 20px 0px 15px;
 }
 
 /**/
@@ -539,12 +526,12 @@ main{
 
     width: 100%;
     max-width: 1500px;
-    height: 310px;
-    margin: 0 auto;
+    margin: 165px auto 0;
+
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
-    margin-top: 165px;
 }
 
 /*1st row items*/
@@ -555,8 +542,8 @@ main{
 .study-stuffs2 main{
     height: 80%;
     width: 90%;
-    background-image: url(./images/body-images/items/study-stuffs.png);
-    background-size: cover;
+    background-image: url(./images/body-images/items/cooker.png);
+    background-size:cover;
     margin: 20px;
     margin-top: 10px;
 }
@@ -566,12 +553,6 @@ main{
 }
 
 /*Fasion items*/
-
-/*box number 2*/
-
-/*box number 3*/
-
-/**/
 .dress2 main{
     height: 80%;
     width: 90%;
@@ -598,7 +579,7 @@ main{
 .fasion-jeans2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/fashion/jeans.png);
+    background-image: url(./images/body-images/items/home-arrivals/Kitchen-Dining.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
 }
@@ -607,7 +588,7 @@ main{
 .fasion-tops2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/fashion/tops.png);
+    background-image: url(./images/body-images/items/home-arrivals/Home-Improvement.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
 }
@@ -616,7 +597,7 @@ main{
 .fasion-dresses2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/fashion/dresses.png);
+    background-image: url(./images/body-images/items/home-arrivals/Decor.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
 }
@@ -625,7 +606,7 @@ main{
 .fasion-shoes2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/fashion/shoes.png);
+    background-image: url(./images/body-images/items/home-arrivals/Bedding-Bath.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
 }
@@ -635,18 +616,11 @@ main{
     margin: 20px;
 }
 
-.item{
-    height: 420px;
-    width: 24%;
-    background-color: white;
-    padding: 20px 0px 15px;
-}
-
 /**/
 .game2 main{
     height: 80%;
     width: 90%;
-    background-image: url(./images/body-images/items/games.png);
+    background-image: url(./images/body-images/items/laptop.png);
     background-size: cover;
     margin: 20px;
     margin-top: 10px;
@@ -675,7 +649,7 @@ main{
 .school-supplies-backpacks2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/school-supplies/backpacks.png);
+    background-image: url(./images/body-images/items/watches/women.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
 }
@@ -684,7 +658,7 @@ main{
 .school-supplies-electronics2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/school-supplies/electronics.png);
+    background-image: url(./images/body-images/items/watches/men.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
 }
@@ -693,7 +667,7 @@ main{
 .school-supplies-stationery2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/school-supplies/stationery.png);
+    background-image: url(./images/body-images/items/watches/girls.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
 }
@@ -702,9 +676,117 @@ main{
 .school-supplies-fashion2{
     height: 100px;
     width: 120px;
-    background-image: url(./images/body-images/items/school-supplies/fasion.png);
+    background-image: url(./images/body-images/items/watches/boys.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
 }
-/*personalized recommendations*/
 
+/*---------------------------------------------------------*/
+/*personalized recommendations*/
+.sing-in-option{
+    height: 180px;
+    background-color: white;
+    /* padding: 50px; */
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#recommendation-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#sing-in-icon-sign{
+    background-color: #FFD814;
+    min-height: 32px;
+    width: 17%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    margin: 5px auto;
+}
+
+#sing-in-icon-sign:hover{
+    background-color: #FFCE12;
+}
+
+#new-customer{
+    text-decoration: underline;
+}
+
+.last-link{
+    font-size: 0.7rem;
+}
+
+.sing-in-option hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e7e7e7;
+    margin: 20px 0;
+}
+
+/*Footer*/
+#topped{
+    display: flex;
+    color: white;
+    background-color: #37475A;
+    height: 50px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+#topped:hover{
+    background-color: #485769;
+}
+
+/*About Amazon*/
+.total-footer{
+    height: 450px;
+    background-color: #232F3E;    
+}
+
+/*Top Footer*/
+.top-footer{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 0px 400px;
+}
+
+u p{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 14px 0px;
+    margin-top: 50px;
+}
+
+u a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: auto;
+    margin: 14px 0px;
+}
+
+/*Bottom-footer*/
+.bottom-footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
