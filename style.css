@@ -297,13 +297,15 @@ nav{
 .body-main{
     display: block;
     width: 100%;
+    height: 800px;
+    overflow: hidden;
 }
 
 /*Hero Section Image*/
 .hero-section{
+    height: 310px;
     width: 100%;
     max-width: 1500px;
-    height: 310px;
     margin: 0 auto;
     background-image: url("./images/body-images/Hero-section.png");
     background-size: cover;
@@ -366,10 +368,11 @@ main{
 /*box number 1*/
 .item{
     height: 420px;
-    width: 24%;
+    width: 350px;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 20px 0px 15px; 
     margin: 10px 0px;
+
 }
 
 /**/
@@ -379,8 +382,7 @@ main{
     background-image: url(./images/body-images/items/study-stuffs.png);
     background-size: cover;
     margin: 20px;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
 
 .item-footers{
@@ -424,7 +426,7 @@ main{
 /*Sub item 1*/
 .fasion-jeans{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/fashion/jeans.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
@@ -433,7 +435,7 @@ main{
 /*Sub item 2*/
 .fasion-tops{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/fashion/tops.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
@@ -442,7 +444,7 @@ main{
 /*Sub item 3*/
 .fasion-dresses{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/fashion/dresses.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
@@ -451,7 +453,7 @@ main{
 /*Sub item 4*/
 .fasion-shoes{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/fashion/shoes.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
@@ -494,7 +496,7 @@ main{
 /*Sub item 1*/
 .school-supplies-backpacks{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/school-supplies/backpacks.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
@@ -503,7 +505,7 @@ main{
 /*Sub item 2*/
 .school-supplies-electronics{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/school-supplies/electronics.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
@@ -512,7 +514,7 @@ main{
 /*Sub item 3*/
 .school-supplies-stationery{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/school-supplies/stationery.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
@@ -521,7 +523,7 @@ main{
 /*Sub item 4*/
 .school-supplies-fashion{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/school-supplies/fasion.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
@@ -574,7 +576,7 @@ main{
 /*Sub item 1*/
 .fasion-jeans2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/home-arrivals/Kitchen-Dining.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
@@ -583,7 +585,7 @@ main{
 /*Sub item 2*/
 .fasion-tops2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/home-arrivals/Home-Improvement.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
@@ -592,7 +594,7 @@ main{
 /*Sub item 3*/
 .fasion-dresses2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/home-arrivals/Decor.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
@@ -601,7 +603,7 @@ main{
 /*Sub item 4*/
 .fasion-shoes2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/home-arrivals/Bedding-Bath.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
@@ -644,7 +646,7 @@ main{
 /*Sub item 1*/
 .school-supplies-backpacks2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/watches/women.png);
     background-size: cover;
     /* margin: 0px 20px 20px 0px; */
@@ -653,7 +655,7 @@ main{
 /*Sub item 2*/
 .school-supplies-electronics2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/watches/men.png);
     background-size: cover;
     /* margin: 0px 0px 20px 20px; */
@@ -662,7 +664,7 @@ main{
 /*Sub item 3*/
 .school-supplies-stationery2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/watches/girls.png);
     background-size: cover;
     /* margin: 20px 20px 0px 0px; */
@@ -671,7 +673,7 @@ main{
 /*Sub item 4*/
 .school-supplies-fashion2{
     height: 100px;
-    width: 120px;
+    width: 110px;
     background-image: url(./images/body-images/items/watches/boys.png);
     background-size: cover;
     /* margin: 20px 0px 0px 20px; */
@@ -682,7 +684,7 @@ main{
 .sing-in-option{
     height: 180px;
     background-color: white;
-    margin-top: 650px;
+    /* margin-top: 650px; */
 
     display: flex;
     flex-direction: column;
@@ -728,6 +730,7 @@ main{
     margin: 20px 0;
 }
 
+/*-------------------------------------------------------------------------------*/
 /*Footer*/
 #topped{
     display: flex;
@@ -752,12 +755,16 @@ main{
 }
 
 /*Top Footer*/
+
+.list-spaceing{
+    width: 100px;
+}
+
 .top-footer{
     height: 350px;
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    padding: 0px 400px;
+    justify-content: center;
+    /* padding: 0px 200px; */
 }
 
 .listes p{
@@ -765,7 +772,7 @@ main{
     font-weight: 700;
     font-size: 16px;
     margin: 14px 0px;
-    margin-top: 50px;
+    margin-top: 50px;   
 }
 
 .listes a{
@@ -789,4 +796,7 @@ main{
     margin-top: 30px;
     font-size: 12px;
     text-align: center;
+    background-color: #131A22;
+    height: 80px;
+    padding-top: 10px;
 }
