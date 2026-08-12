@@ -345,16 +345,16 @@ main{
     margin-left: 20px;
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------
 /*Shopping Items*/
 .shopping-items{
-
     width: 100%;
     max-width: 1500px;
     height: 310px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /*1st row items*/
@@ -365,6 +365,7 @@ main{
     width: 24%;
     background-color: white;
     padding: 20px 0px 15px;
+    margin: 10px 0px;
 }
 
 /**/
@@ -375,18 +376,20 @@ main{
     background-size: cover;
     margin: 20px;
     margin-top: 10px;
+    
 }
 
 .item-footers{
     margin: 20px;
 }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*Wrapping*/
-.shop-main, .shop-main2{
+/* .shop-main, .shop-main2{
     min-width: 100px;
     overflow: hidden;
     flex-wrap: nowrap;
-}
+} */
 
 /*Fasion items*/
 
@@ -522,17 +525,6 @@ main{
 
 /*--------------------------------------------------------*/
 /*Shopping Items*/
-.shopping2-items{
-
-    width: 100%;
-    max-width: 1500px;
-    margin: 165px auto 0;
-
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
 
 /*1st row items*/
 
@@ -626,7 +618,7 @@ main{
     margin-top: 10px;
 }
 
-/*---------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .school-supplies2 main{
     height: 80%;
     width: 90%;
@@ -681,13 +673,12 @@ main{
     /* margin: 20px 0px 0px 20px; */
 }
 
-/*---------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*personalized recommendations*/
 .sing-in-option{
     height: 180px;
     background-color: white;
-    /* padding: 50px; */
-    margin-top: 20px;
+    margin-top: 650px;
 
     display: flex;
     flex-direction: column;
@@ -752,7 +743,8 @@ main{
 /*About Amazon*/
 .total-footer{
     height: 450px;
-    background-color: #232F3E;    
+    background-color: #232F3E;
+
 }
 
 /*Top Footer*/
