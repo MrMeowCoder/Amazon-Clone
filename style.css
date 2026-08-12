@@ -19,6 +19,7 @@ nav{
     width: 100%;
     flex-direction: column;
     min-width: 900px;
+    /* position: relative;   */
 }
 
 /*Navigation bar background*/
@@ -29,6 +30,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 .nav-logo{
     height: 50px;
@@ -235,6 +238,7 @@ nav{
     height: 39px;
     display: flex;
     align-items: center;
+    margin-top: 60px;
 }
 
 /*Decorating menu bar*/
@@ -756,7 +760,7 @@ main{
     padding: 0px 400px;
 }
 
-u p{
+.listes p{
     color: white;
     font-weight: 700;
     font-size: 16px;
@@ -764,13 +768,17 @@ u p{
     margin-top: 50px;
 }
 
-u a{
+.listes a{
     display: block;
     color: white;
     text-decoration: none;
     font-size: 14px;
     width: auto;
     margin: 14px 0px;
+}
+
+.listes a:hover{
+    text-decoration: underline;
 }
 
 /*Bottom-footer*/
