@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="log-outline">
-            <div >
+            <div>
                 <h1 id="login-great">WELCOME TO OUR SITE</h1>
                 <H3 id="greet2">PLEASE ENTER YOUR DETAILS TO LOGIN</H3>
             </div>
@@ -15,34 +15,44 @@
             <!--Login-->
             <div class="log-bar">
 
-                <!--User name-->
-                <div class="user-id">
-                    <i class="fa-solid fa-user"></i>
-                    <span class="Enter-id">
-                        <input type="text" id="uid">
-                    </span>
+                <div class="log-details">
+
+                    <!--User name-->
+                    <div class="user-id">
+                        <div id="logo">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <span class="Enter-id">
+                            <input type="text" id="uid" placeholder="Enter User name">
+                        </span>
                 </div>
 
                 <!--Password-->
                 <div class="user-password">
-                    <i class="fa-solid fa-lock"></i>
+                    <div id="logo">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
                     <span class="Enter-pass">
-                        <input type="password" id="u-pass">
+                        <input type="password" id="u-pass" placeholder="Enter user id">
                     </span>
                 </div>
+            </div>
+                
+                <div class="remember-row">
 
-                <!--Remember me-->
-                <span class="stay-in">
-                    <label for="101">
-                        <input type="checkbox"> Remember me
-                    </label>span
-                </span>
-
-                <!--Forgor Password-->
-                <span class="forgot-pass">
-                    <a class="links" href="#">Forgot Password?</a>
-                </span>
-
+                    <!--Remember me-->
+                    <span class="stay-in">
+                        <label for="101">
+                            <input id="101" type="checkbox"> Remember me
+                        </label>
+                    </span>
+                    
+                    <!--Forgor Password-->
+                    <span class="forgot-pass">
+                        <a class="links" href="#">Forgot Password?</a>
+                    </span>
+                </div>
+                    
                 <!--Regester-->
                 <div class="regester">
                     <p>Don't have an Account? <b><a class="links" href="#">Regester Now</a></b></p>
