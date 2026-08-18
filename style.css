@@ -357,11 +357,17 @@ main {
 
 /*Shopping Items*/
 .shopping-items {
+  height: auto;
   margin: 0 auto;
   justify-content: center;
   width: 100%;
   max-width: 1500px;
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+}
+
+.item-rows {
 }
 
 /*1st row items*/
