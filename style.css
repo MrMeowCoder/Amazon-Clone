@@ -808,3 +808,12 @@ main {
 footer {
   clear: both;
 }
+
+.last-footer {
+  color: white;
+  background-color: #12181f;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
